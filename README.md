@@ -1,6 +1,6 @@
 # hotel-example-capybara-en-us
 
-
+![capybara-en-us](https://github.com/testplanisphere/hotel-example-capybara-en-us/workflows/capybara-en-us/badge.svg)
 
 This project is example codes for learning test automation.
 
@@ -59,3 +59,7 @@ bundle exec rake rubocop
 ```
 
 ### Changelog
+
+#### v2020.7.0 (2020-07-26)
+
+* First release
