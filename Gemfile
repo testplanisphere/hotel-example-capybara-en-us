@@ -8,7 +8,7 @@ gem 'capybara', '~> 3.33'
 gem 'ffi', platforms: %i[mingw x64_mingw mswin]
 gem 'rake', '~> 13.0', '>= 13.0.1'
 gem 'rspec', '~> 3.9'
-gem 'rubocop', '~> 0.89.1', require: false
+gem 'rubocop', '~> 0.91.1', require: false
 gem 'selenium-webdriver', '~> 3.142', '>= 3.142.7'
 gem 'site_prism', '~> 3.4', '>= 3.4.2'
 gem 'webdrivers', '~> 4.4'
