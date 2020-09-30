@@ -60,6 +60,11 @@ bundle exec rake rubocop
 
 ### Changelog
 
+#### v2020.9.0 (2020-09-30)
+
+* [#8](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/8) Bump rubocop from 0.89.1 to 0.91.1 
+* [#9](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/9) Bump rubocop from 0.91.1 to 0.92.0
+
 #### v2020.8.0 (2020-08-31)
 
 * [#4](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/4) Bump rubocop from 0.88.0 to 0.89.1
