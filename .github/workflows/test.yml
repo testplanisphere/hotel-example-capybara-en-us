@@ -25,7 +25,7 @@ jobs:
       with:
         ruby-version: 2.6.x
     - name: Cache gem modules
-      uses: actions/cache@v2
+      uses: actions/cache@v2.1.4
       if: matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest'
       with:
         path: vendor/bundle
