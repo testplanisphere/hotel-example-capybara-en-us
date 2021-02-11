@@ -21,22 +21,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
-    - name: Cache gem modules
-      uses: actions/cache@v2
-      if: matrix.os == 'ubuntu-latest' || matrix.os == 'macos-latest'
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle config path vendor/bundle
-        bundle install --jobs 4 --retry 3
+        ruby-version: 2.6
+        bundler-cache: true
     - name: Lint with rubocop
       run: bundle exec rake rubocop
     - name: Test with capybara
