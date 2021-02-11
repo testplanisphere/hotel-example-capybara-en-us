@@ -35,7 +35,7 @@ GEM
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
-    rake (13.0.1)
+    rake (13.0.3)
     regexp_parser (1.8.2)
     rexml (3.2.4)
     rspec (3.10.0)
@@ -89,7 +89,7 @@ PLATFORMS
 DEPENDENCIES
   capybara (~> 3.33)
   ffi
-  rake (~> 13.0, >= 13.0.1)
+  rake (~> 13.0)
   rspec (~> 3.10)
   rubocop (~> 0.92.0)
   selenium-webdriver (~> 3.142, >= 3.142.7)
