@@ -2,3 +2,5 @@ Metrics/BlockLength:
   Max: 300
 Layout/LineLength:
   Max: 125
+Style/StringConcatenation:
+  Enabled: false
