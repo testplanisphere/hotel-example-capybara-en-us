@@ -1,6 +1,6 @@
 # hotel-example-capybara-en-us
 
-![capybara-en-us](https://github.com/testplanisphere/hotel-example-capybara-en-us/workflows/capybara-en-us/badge.svg)
+[![capybara-en-us](https://github.com/testplanisphere/hotel-example-capybara-en-us/actions/workflows/test.yml/badge.svg)](https://github.com/testplanisphere/hotel-example-capybara-en-us/actions/workflows/test.yml)
 
 This project is example codes for learning test automation.
 
@@ -59,6 +59,19 @@ bundle exec rake rubocop
 ```
 
 ### Changelog
+
+#### v2021.2.0 (2021-02-28)
+
+* [#13](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/13) Bump site_prism from 3.4.2 to 3.7
+* [#16](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/16) Bump rspec from 3.9.0 to 3.10.0
+* [#27](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/27) Bump rake from 13.0.1 to 13.0.3
+* [#33](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/33) Bump capybara from 3.33.0 to 3.35.3
+* [#34](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/34) Bump rubocop from 0.92.0 to 1.9.1
+* [#36](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/36) Update cache setting
+* [#38](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/38) Bump ruby from 2.6 to 2.7
+* [#39](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/39) Bump webdrivers from 4.4.1 to 4.5.0
+* [#40](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/40) Bump rubocop from 1.9.1 to 1.10.0
+* [#41](https://github.com/testplanisphere/hotel-example-capybara-en-us/pull/41) Bump site_prism from 3.7 to 3.7.1
 
 #### v2020.9.0 (2020-09-30)
 
