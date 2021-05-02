@@ -14,9 +14,9 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     diff-lcs (1.4.4)
-    ffi (1.12.2)
-    ffi (1.12.2-x64-mingw32)
-    ffi (1.12.2-x86-mingw32)
+    ffi (1.15.0)
+    ffi (1.15.0-x64-mingw32)
+    ffi (1.15.0-x86-mingw32)
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)
     nokogiri (1.11.1)
@@ -88,7 +88,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara (~> 3.35)
-  ffi
+  ffi (~> 1.15.0)
   rake (~> 13.0)
   rspec (~> 3.10)
   rubocop (~> 1.10.0)
