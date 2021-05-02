@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'capybara', '~> 3.35'
-gem 'ffi', platforms: %i[mingw x64_mingw mswin]
+gem 'ffi', '~> 1.15.0', platforms: %i[mingw x64_mingw mswin]
 gem 'rake', '~> 13.0'
 gem 'rspec', '~> 3.10'
 gem 'rubocop', '~> 1.10.0', require: false
