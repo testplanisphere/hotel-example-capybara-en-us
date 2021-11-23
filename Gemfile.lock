@@ -66,7 +66,7 @@ GEM
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     rubyzip (2.3.2)
-    selenium-webdriver (4.0.3)
+    selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
@@ -95,7 +95,7 @@ DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.10)
   rubocop (~> 1.23.0)
-  selenium-webdriver (~> 4.0)
+  selenium-webdriver (~> 4.1)
   site_prism (~> 3.7)
   webdrivers (~> 5.0)
 
