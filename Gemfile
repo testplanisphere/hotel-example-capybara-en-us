@@ -11,4 +11,4 @@ gem 'rspec', '~> 3.11'
 gem 'rubocop', '~> 1.36.0', require: false
 gem 'selenium-webdriver', '~> 4.4'
 gem 'site_prism', '~> 3.7'
-gem 'webdrivers', '~> 5.0'
+gem 'webdrivers', '~> 5.1'
